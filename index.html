@@ -123,13 +123,14 @@
 <form action="./" method="get" style="padding-bottom: 40px" target="_blank" class="flex" onsubmit="toSubmit(event)">
     <label class="block" style="width: fit-content">
         <input class="block url" name="q" type="text" placeholder="请输入Github文件链接"
-               pattern="^((https|http):\/\/)?(github\.com\/.+?\/.+?\/(?:releases|archive|blob)|(raw\.githubusercontent\.com))\/.+$" required>
+               pattern="^((https|http):\/\/)?(github\.com\/.+?\/.+?\/(?:releases|archive|blob|raw|suites)|((?:raw|gist)\.(?:githubusercontent|github)\.com))\/.+$" required>
         <div class="bar"></div>
     </label>
     <input class="block btn" type="submit" value="加速下载">
     <div class="example">
         <p>分支源码：https://github.com/Lcry/Command-file/archive/master.zip</p>
 		<p>分支文件：https://github.com/Lcry/Command-file/blob/master/src/UnixBench5.1.3.tgz</p>
+        <p>release源码：https://github.com/Lcry/Command-file/archive/V1.0.0.zip</p>
         <p>release源码：https://github.com/Lcry/Command-file/archive/V1.0.0.zip</p>
     </div>
 </form>
